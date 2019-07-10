@@ -46,9 +46,8 @@ h1 {
 
 .top-header .lviv-fashoin-week {
     background-image: url(../img/background_logo.png);
-    background-position: center;
+   /*background-position: center; */
     background-size: cover;
-    min-height: 550px;
 }
 
 @media (min-width: 700px) {
@@ -90,6 +89,11 @@ h1 {
     }
 }
 
+.button-center {
+   padding-top: 30px;
+   text-align: center;
+}
+
 .button-about-us {
   text-align: center;
   background: #faf0f9;
@@ -114,7 +118,7 @@ h1 {
 
 .secondname {
     font-family: 'Limelight', cursive;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: bold;
     color: #660b3a;
     text-align: center;
@@ -133,4 +137,3 @@ h1 {
         grid-gap: 2px;
     }
 }
-    
