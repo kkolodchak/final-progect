@@ -130,10 +130,34 @@ h1 {
     text-decoration: none;
 }
 
-@media (min-width: 300px) {
-    .list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2px;
-    }
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-onetwo-half {
+    padding-top: 105px;
+    text-align: center;
+    margin-left: -50px;
+}
+
+.thirddname {
+    font-family: 'Limelight', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #660b3a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.gellery-photo {
+    padding-top: 75px;
+    text-align: center;
+    margin-left: -70px;
 }
