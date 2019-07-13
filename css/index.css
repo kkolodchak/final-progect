@@ -226,7 +226,7 @@ h1 {
     justify-content: center;
 }
 
-.form-style-5{
+.form-style-5 {
 	max-width: 500px;
 	padding: 10px 20px;
 	background: #ede1ed;
@@ -251,6 +251,7 @@ h1 {
 .form-style-5 input[type="date"],
 .form-style-5 input[type="datetime"],
 .form-style-5 input[type="email"],
+.form-style-5 input[type="tel"],
 .form-style-5 input[type="number"],
 .form-style-5 input[type="search"],
 .form-style-5 input[type="time"],
@@ -309,25 +310,23 @@ h1 {
 .form-style-5 input[type="submit"],
 .form-style-5 input[type="button"]
 {
-	position: relative;
-	display: block;
-	padding: 19px 39px 18px 39px;
-	color: #FFF;
-	margin: 0 auto;
-	background: #612961;
-	font-size: 18px;
-	text-align: center;
-	font-style: normal;
-	width: 100%;
-	border: 1px solid #612961;
-	border-width: 1px 1px 3px;
-	margin-bottom: 10px;
+  text-align: center;
+  background: #faf0f9;
+  background-image: -webkit-linear-gradient(top, #faf0f9, #f5d7f2);
+  background-image: -moz-linear-gradient(top, #faf0f9, #f5d7f2);
+  background-image: -ms-linear-gradient(top, #faf0f9, #f5d7f2);
+  background-image: -o-linear-gradient(top, #faf0f9, #f5d7f2);
+  background-image: linear-gradient(to bottom, #faf0f9, #f5d7f2);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Limelight', cursive;
+  color: #6e2365;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
-.form-style-5 input[type="submit"]:hover,
-.form-style-5 input[type="button"]:hover
-{
-	background: #995399;
-}
+
 </style>
 
 
