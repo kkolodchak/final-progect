@@ -217,14 +217,13 @@ h1 {
 
 
 .insta {
-    margin-left: 300px;
+    margin-right: 70px;
 }
 
 
 .links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
 }
 
 
