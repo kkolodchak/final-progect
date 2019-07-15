@@ -310,7 +310,8 @@ h1 {
 .form-style-5 input[type="submit"],
 .form-style-5 input[type="button"]
 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   background: #faf0f9;
   background-image: -webkit-linear-gradient(top, #faf0f9, #f5d7f2);
   background-image: -moz-linear-gradient(top, #faf0f9, #f5d7f2);
@@ -327,6 +328,17 @@ h1 {
   text-decoration: none;
 }
 
-</style>
+.footer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.slideShow {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 
 
